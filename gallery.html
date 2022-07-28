@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GALLERY</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: white;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      header {
+        display: flex;
+        height: 60px;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header div {
+        font-size: 30px;
+        box-shadow: 0px 0px 5px 2px rgba(220, 220, 220, 0.6);
+        padding: 5px 10px 5px 10px;
+        margin: 4px;
+        border-radius: 15px;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 30px;
+        margin: 50px;
+      }
+      .gallery-img {
+        width: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div>GALLERY</div>
+      <div><a href="index.html">BACK</a></div>
+    </header>
+
+    <main>
+      <div><img class="gallery-img" src="images/b.jpg" alt="" /></div>
+      <div><img class="gallery-img" src="images/c.jpg" alt="" /></div>
+      <div><img class="gallery-img" src="images/j.jpg" alt="" /></div>
+    </main>
+  </body>
+</html>
