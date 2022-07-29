@@ -19,6 +19,7 @@ body{
     font-size: 40px;
     z-index: 100;
     align-items: center; 
+    background-color: rgb(59, 59, 59);
 }
 .header-img{
     width: 40px;
